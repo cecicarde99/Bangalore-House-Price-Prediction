@@ -7,7 +7,7 @@ from sklearn.linear_model import LinearRegression
 
 @st.cache_data
 def get_data():
-    data = pd.read_csv(r"C:\Users\HP\Desktop\Projects\House Price Prediction\Bengaluru_House_Data.csv")
+    data = pd.read_csv(r"Bengaluru_House_Data.csv")
     return data
 
 
